@@ -23,9 +23,7 @@ body{
     flex-direction: column;
     padding: 40px;
     border-top-right-radius: 16px;
-    border-top-left-radius: 16px;
-    
-    
+    border-top-left-radius: 16px; 
 }
 .community h1{
     color:var(--Cyan);
@@ -34,29 +32,28 @@ body{
 .community h2{
     color:var(--BrightYellow);
     margin-bottom: -4px;
-
 }
 .community p{
     color: var(--GrayishBlue);
 }
-
 .card {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: start;
-    
+    justify-content: start;  
 }
 .subscription{
     padding: 40px;
     background: rgb(6, 168, 155);
     color: white;
     border-bottom-left-radius: 16px;
-
 }
-.dollar{
-    font-size: 30px;
-    padding-right: 8px;
-    color: white;
+.pesos{
+    display: flex;
+    align-items: center;
+    height: 28px;
+}
+.pesos h1{
+    margin-right: 8px;
 }
 .subscription p{
     color: rgba(255, 255, 255, 0.548);
@@ -71,9 +68,7 @@ body{
     color: white;
     text-decoration: none;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
-    border:0px;
-
-    
+    border:0px;   
 }
 .us{
     padding: 40px;
