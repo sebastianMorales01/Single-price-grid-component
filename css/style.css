@@ -1,0 +1,91 @@
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --BrightYellow: hsl(71, 73%, 54%);
+    --LightGray: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+}
+body{
+    Font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background: rgb(214, 227, 238);
+}
+.container{
+    width: 700px;
+    margin-left: 25%;
+    margin-top: 5%;
+    box-shadow: 3px 3px 15px gray;
+    border-radius: 16px;
+    
+}
+.community{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    
+    
+}
+.community h1{
+    color:var(--Cyan);
+    margin-bottom: -1px;
+}
+.community h2{
+    color:var(--BrightYellow);
+    margin-bottom: -4px;
+
+}
+.community p{
+    color: var(--GrayishBlue);
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+    
+}
+.subscription{
+    padding: 40px;
+    background: rgb(6, 168, 155);
+    color: white;
+    border-bottom-left-radius: 16px;
+
+}
+.dollar{
+    font-size: 30px;
+    padding-right: 8px;
+    color: white;
+}
+.subscription p{
+    color: rgba(255, 255, 255, 0.548);
+}
+.subscription button{
+    background: var(--BrightYellow);
+    border-radius: 5px; 
+    size: 30px;
+    width: 85%;
+    padding: 1em;
+    margin-top: 12px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    border:0px;
+
+    
+}
+.us{
+    padding: 40px;
+    background: rgb(8, 182, 167);
+    color: white;
+    border-bottom-right-radius: 16px;
+}
+.us h3{
+    margin-left: 38px;
+}
+.us ul li{
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.548);
+}
+
